@@ -1,0 +1,87 @@
+h1{
+	text-align: center;
+	font-size: 175%;
+}
+
+body {
+	font-family: "Comic Sans MS", sans-serif;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+	}
+	.col-lg-4 {
+		width: 33.3333333%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+
+
+.row {
+	width: 100%;
+}
+
+.corner{
+	margin: 0px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-style: solid;
+	font-size: 125%;
+}
+
+div {
+	padding: 10px;
+}
+
+div.container{
+	padding: 0px;
+	position: relative;
+	
+	background-color: grey;
+	border-style: solid;
+	border-width: 1px;
+}
+
+p.text {
+	margin-top: 35px;
+	font-size: 100%;
+}
+
+p {
+	background-color: grey;
+	border-width: 1px;
+	padding: 5px;
+}
+
+#id1{
+	background-color: pink;
+}
+
+#id2{
+	background: red;
+	color: white;
+	border-color: black;
+}
+
+#id3{
+	background-color: yellow;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
